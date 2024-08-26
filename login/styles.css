@@ -16,7 +16,7 @@ img {
   width: 100%;
 }
 body {
-  background-color: #4d0990;
+  background: linear-gradient(to bottom, #4d0990, #b054f7);
   width: 100%;
   height: 100vh;
   margin: 0;
