@@ -1,10 +1,11 @@
 body {
   margin: 0;
-  font-family: Tahoma;
-  background-color: #d4a8f0;
   box-sizing: border-box;
 }
-
+.voteHeader {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 .pageDesignBox {
   background-color: #ffffff;
   border: 1px solid #4d0990;
@@ -101,29 +102,29 @@ body {
   overflow-y: auto;
 }
 
-::-webkit-scrollbar {
+.mainPointingPageColumn ::-webkit-scrollbar {
   width: 12px; /* Width of the scrollbar */
   height: 12px; /* Height of the scrollbar for horizontal scroll */
   padding: 30px;
 }
 
 /* Scrollbar Track */
-::-webkit-scrollbar-track {
+.mainPointingPageColumn ::-webkit-scrollbar-track {
   background: #e5e7eb; /* Color of the track */
   border-radius: 10px; /* Round the corners of the track */
 }
 
 /* Scrollbar Thumb */
-::-webkit-scrollbar-thumb {
+.mainPointingPageColumn ::-webkit-scrollbar-thumb {
   background: #4d0990; /* Color of the thumb */
   border-radius: 10px; /* Round the corners of the thumb */
 }
 
 /* Scrollbar Thumb on Hover */
-::-webkit-scrollbar-thumb:hover {
+.mainPointingPageColumn ::-webkit-scrollbar-thumb:hover {
   background: #8a48cc; /* Color of the thumb when hovered */
 }
-.mainColumn {
+.mainPointingPageColumn {
   display: flex;
   width: 100%;
   padding: 20px;
@@ -133,6 +134,8 @@ body {
   gap: 20px;
   flex-direction: column;
   height: 100vh;
+  font-family: Barlow;
+  background-color: #d4a8f0;
 }
 .activeVoteBox {
   background-color: #4d0990;
